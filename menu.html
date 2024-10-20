@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Local Cafe Order</title>
+    <title>Order Menu</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-image: url('https://w.wallhaven.cc/full/4g/wallhaven-4gmgkd.jpg');
+            background-image: url('https://img.freepik.com/free-vector/blank-blue-halftone-background_53876-114466.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         h1 {
             text-align: center;
@@ -66,14 +68,10 @@
         .order-form button:hover {
             background-color: #218838;
         }
-        mark{
-            background-color: black;
-            color: antiquewhite;
-        }
     </style>
 </head>
 <body>
-    <h1><mark>Order Here!</mark></h1>
+    <h1>Get Free Delivery in Goa!</h1>
     <div class="menu">
         <div class="menu-item">
             <h3>Cappuccino</h3>
@@ -153,7 +151,5 @@
         document.getElementById("orderSummary").innerHTML = `<h2>Order Summary</h2><p>${summary}</p>`;
     });
 </script>
-
-    </script>
 </body>
 </html>
