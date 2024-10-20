@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order Menu</title>
+    <title>Interactive Cafe Menu</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -23,7 +23,7 @@
             margin-bottom: 30px;
         }
         .menu-item {
-            background-color: #ccc;
+            background-color: #f0f0f0;
             padding: 20px;
             margin: 10px;
             border-radius: 8px;
@@ -40,7 +40,7 @@
         .order-form {
             max-width: 600px;
             margin: 0 auto;
-            background-color: #ccc;
+            background-color: #f0f0f0;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -58,7 +58,7 @@
         }
         .order-form button {
             background-color: green;
-            color: #ccc;
+            color: #fff;
             border: none;
             padding: 10px;
             width: 100%;
@@ -67,6 +67,12 @@
         }
         .order-form button:hover {
             background-color: #218838;
+        }
+        #orderSummary {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 18px;
+            color: #333;
         }
     </style>
 </head>
@@ -150,6 +156,6 @@
         alert(summary);
         document.getElementById("orderSummary").innerHTML = `<h2>Order Summary</h2><p>${summary}</p>`;
     });
-</script>
+    </script>
 </body>
 </html>
