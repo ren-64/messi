@@ -69,6 +69,38 @@
             text-align: center;
             font-family: Georgia, 'Times New Roman', Times, serif;
         }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        .menu-container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow-x: scroll;
+            max-height: 400px;
+        }
+        .menu-item {
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .menu-item h3 {
+            margin: 0 0 10px 0;
+        }
+        .menu-item p {
+            margin: 5px 0;
+        }
     </style>
 </head>
 <body>
@@ -79,7 +111,7 @@
     <nav>
         <a href="aboutus.html"><sup>About Us</sup></a>
         <a href="menu.html"><sup>Shop </sup></a>
-        <a href="contact.html"><sup>Contact</sup></a>
+        <a href="#contact"><sup>Contact</sup></a>
     </nav>
     <div class="title">
         CCC's Special Blend!!
@@ -89,9 +121,41 @@
         <p>CCC [chonky cat café] is a cozy coffee shop located in the heart of the city. We specialize in handcrafted coffee, delicious pastries, and a warm, welcoming atmosphere. Come relax with us!</p>
     </section>
     <section id="menu" class="menu">
-        <h2>Our Menu</h2>
-        <img src="https://img.cdn-pictorem.com/uploads/collection/O/OT4LEN2GPB/900_Tim-A-Rowland_cat_gray_in_bathrobe_holding_tea_or_coffee.jpg" alt="Coffee Image" width="390px">
-        <p>Explore our selection of freshly brewed coffee, gourmet sandwiches, and homemade desserts. Whether you're here for breakfast or an afternoon snack, we have something for everyone!</p>
+    <h1>Cafe Menu</h1>
+    <div class="menu-container">
+        <div class="menu-item">
+            <h3>Cappuccino</h3>
+            <p>Small: ₹200 | Medium: ₹225 | Large: ₹250</p>
+        </div>
+        <div class="menu-item">
+            <h3>Latte</h3>
+            <p>Small: ₹200 | Medium: ₹225 | Large: ₹250</p>
+        </div>
+        <div class="menu-item">
+            <h3>Espresso</h3>
+            <p>Single: ₹175 | Doppio: ₹190</p>
+        </div>
+        <div class="menu-item">
+            <h3>Americano</h3>
+            <p>Small: ₹185 | Medium: ₹210 | Large: ₹235</p>
+        </div>
+        <div class="menu-item">
+            <h3>Muffin</h3>
+            <p>Regular: ₹120 | Large: ₹160</p>
+        </div>
+        <div class="menu-item">
+            <h3>Croissant</h3>
+            <p>Regular: ₹130 | Large: ₹190</p>
+        </div>
+        <div class="menu-item">
+            <h3>Sandwich</h3>
+            <p>Half: ₹100 | Full: ₹150</p>
+        </div>
+        <div class="menu-item">
+            <h3>Salad</h3>
+            <p>Small: ₹120 | Large: ₹185</p>
+        </div>
+    </div>
     </section>
     <footer>
         <p>&copy; WD Project 2024  | Designed with ♥ by Yash & Ashraff</p>
